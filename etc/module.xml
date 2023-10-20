@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © COMMERCY TECNOLOGIA LTDA, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Commercy_ImprovedIndexer">
+        <sequence>
+            <module name="Magento_Indexer" />
+        </sequence>
+    </module>
+</config>
